@@ -16,12 +16,15 @@
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-15 0 20 0" Click="New_Click">New</Button>
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-13 0 20 0" Click="Open_Click_1">Open</Button>
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-15 0 20 0" Click="Save_Click_2">Save</Button>
+            <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-1 0 20 0" Click="Save_as_Click">Save as</Button>
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="10" FontFamily="Times New Roman" Margin="10 5 75 10" Padding="0 0 0 0" Click="A10_Click">A</Button>
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="14" FontFamily="Times New Roman" Margin="30 -36 50 0" Padding="10 0 0 0" Click="A14_Click">A</Button>
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="18" FontFamily="Times New Roman" Margin="60 -30 10 10" Padding="0 0 0 0" Click="A18_Click">A</Button>
+            <RadioButton Background="Gray" Margin="12 0 70 0" Checked="RadioButton_Checked"></RadioButton>
+            <RadioButton Background="White" Margin="40 -14 40 0" Checked="RadioButton_Checked_1"></RadioButton>
         </StackPanel>
 
-        <TextBox x:Name="TextArea" Margin="126 0 -391 0" AcceptsReturn="True" TextWrapping="Wrap" Background="White"></TextBox>
+        <TextBox x:Name="TextArea" Margin="126 0 -390 0" AcceptsReturn="True" TextWrapping="Wrap" Background="White" Foreground="Gray"></TextBox>
 
     </Grid>
 </Window>
