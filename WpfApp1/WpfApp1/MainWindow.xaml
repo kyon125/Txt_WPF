@@ -14,11 +14,11 @@
         <Rectangle Grid.Column="0" Fill="Black" ></Rectangle>
         <StackPanel Grid.Column="0" Margin="10">
             <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-15 0 20 0" Click="New_Click">New</Button>
-            <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-14 0 20 0" Click="Open_Click_1">Open</Button>
-            <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-15 0 20 20" Click="Save_Click_2">Save</Button>
-            <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="10" FontFamily="Times New Roman" Margin="10 5 75 10" Padding="0 0 0 0" >A</Button>
-            <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="14" FontFamily="Times New Roman" Margin="30 -36 50 0" Padding="10 0 0 0" >A</Button>
-            <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="18" FontFamily="Times New Roman" Margin="60 -30 10 10" Padding="0 0 0 0" >A</Button>
+            <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-13 0 20 0" Click="Open_Click_1">Open</Button>
+            <Button Background="Black" BorderBrush="Black" Foreground="Gray" Margin="10 5 20 10" Padding="-15 0 20 0" Click="Save_Click_2">Save</Button>
+            <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="10" FontFamily="Times New Roman" Margin="10 5 75 10" Padding="0 0 0 0" Click="A10_Click">A</Button>
+            <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="14" FontFamily="Times New Roman" Margin="30 -36 50 0" Padding="10 0 0 0" Click="A14_Click">A</Button>
+            <Button Background="Black" BorderBrush="Black" Foreground="Gray" FontSize="18" FontFamily="Times New Roman" Margin="60 -30 10 10" Padding="0 0 0 0" Click="A18_Click">A</Button>
         </StackPanel>
 
         <TextBox x:Name="TextArea" Margin="126 0 -391 0" AcceptsReturn="True" TextWrapping="Wrap" Background="White"></TextBox>
