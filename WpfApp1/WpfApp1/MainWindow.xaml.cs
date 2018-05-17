@@ -44,6 +44,7 @@ namespace WpfApp1
 
             //開啟檔案
             TextArea.Text = System.IO.File.ReadAllText(dig.FileName);
+            Title = dig.SafeFileName;
         }
 
         private void Open_Click_1(object sender, RoutedEventArgs e)
@@ -57,6 +58,8 @@ namespace WpfApp1
                 File_Path = dig.FileName;
                 TextArea.Text = System.IO.File.ReadAllText(dig.FileName);
             }
+
+            Title = dig.SafeFileName;
         }
 
         private void Save_Click_2(object sender, RoutedEventArgs e)
@@ -73,6 +76,8 @@ namespace WpfApp1
                     File_Path = dig.FileName;
                     System.IO.File.WriteAllText(File_Path, TextArea.Text);
                 }
+
+                Title = dig.SafeFileName;
             }
             else
             {
@@ -107,6 +112,8 @@ namespace WpfApp1
                 File_Path = dig.FileName;
                 System.IO.File.WriteAllText(File_Path, TextArea.Text);
             }
+
+            Title = dig.SafeFileName;
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
